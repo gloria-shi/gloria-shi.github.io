@@ -48,7 +48,7 @@ nav .container-fluid ul li{
 }
 @media only screen and (max-width: 768px) {
   nav .container-fluid ul{
-    margin:30vh auto 0 auto;
+    margin:20vh auto 0 auto;
     display:block;
     text-align: center;
   }
@@ -226,12 +226,15 @@ footer{
   }
   #descrip-2 {
     top:30px;
+    text-shadow: 20px 10px 40px rgba(0,0,0,0.2);
   }
   #descrip-3 {
     top:70px;
+    text-shadow: 20px 10px 40px rgba(0,0,0,0.2);
   }
   #descrip-4 {
     top:110px;
+    text-shadow: 20px 10px 40px rgba(0,0,0,0.2);
   }
 }
 /*introduction text*/
@@ -253,6 +256,14 @@ footer{
 #intro{
   font-size: 2.2vw;
   font-weight: lighter;
+}
+@media only screen and (max-width: 768px){
+  #greetings{
+    font-size: 5vw;
+  }
+  #intro{
+    font-size: 3.2vw;
+  }
 }
 /*portfolio detail*/
 #detail {
