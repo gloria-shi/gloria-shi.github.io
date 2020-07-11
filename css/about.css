@@ -1,0 +1,68 @@
+.about .container-fluid{
+  padding:12vh 10vh 8vh 12vh;
+}
+#about-text{
+  max-width:75vw;
+  float:right;
+}
+#about-text h1{
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1.5px;
+}
+#about-text p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.3vw;
+}
+#about-text p a{
+  color: #000000;
+  text-decoration: underline;
+}
+#about-text2{
+  padding-top: 1vw;
+}
+#about-img img{
+  max-width: 25vw;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+@media only screen and (max-width: 990px){
+  .about .container-fluid{
+    margin:0px;
+  }
+  #about-text{
+    max-width: 100%;
+  }
+  #about-text h1{
+    font-size: 3vw;
+  }
+  #about-text2 p {
+    font-size: 2vw;
+  }
+  #about-img img{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 720px){
+  #about-text h1{
+    font-size: 4vw;
+  }
+  #about-text2 p {
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 600px){
+  .about .container-fluid{
+    padding: 60px 20px 20px 20px;
+  }
+  #about-text h1{
+    font-size: 4vw;
+  }
+  #about-text2 p {
+    font-size: 3vw;
+  }
+}

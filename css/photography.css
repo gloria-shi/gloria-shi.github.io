@@ -1,0 +1,153 @@
+.btn{
+  color: #000000;
+  font-weight: bold;
+  font-size: 3vw;
+  letter-spacing: 0.1vw;
+  padding: 0.2vw 1.2vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-left: 1.7vw;
+  margin-top: 5vw;
+  float: right;
+}
+.btn:hover{
+  background-color: #000000;
+}
+/*landing top*/
+#photo-img{
+  position: relative;
+  padding-top: 35px;
+  width: 38vw;
+  z-index: 2;
+  -webkit-filter: drop-shadow(10px 0px 20px rgba(0,0,0,0.07));
+}
+#descrip-1{
+  font-size: 13vw;
+  top:100px;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  #descrip-1{
+    display: inherit;
+    top:50px;
+  }
+}
+/*detail grids*/
+#photography .container-fluid{
+  width:100%;
+  padding-top: 15px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+#detail .portfolio{
+  padding:20px;
+  padding-bottom: 0px;
+  display: grid;
+  justify-content: center;
+  align-items:center;
+}
+#detail .portfolio:hover a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+#detail .portfolio:hover img{
+  -webkit-filter: drop-shadow(10px 10px 0px rgba(0,0,0,1));
+}
+#detail .portfolio h4{
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 2vw;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px){
+  #photography .container-fluid{
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  #detail .portfolio .detail-link img{
+    max-width: 50vw;
+  }
+  #detail .portfolio h4{
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #photography .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #detail .portfolio h4{
+    font-size: 5vw;
+  }
+}
+/*clip element*/
+#clip-this{
+  position: absolute;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  font-size: 2vw;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  height:100%;
+  clip-path: circle(15px at 35px 50px);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+#clip-this div{
+  font-weight: lighter;
+  text-align: left;
+}
+#clip-this span{
+  font-weight: bold;
+  font-style: italic;
+}
+#i-icon{
+  color: rgba(225,225,225);
+  font-weight:bolder;
+  font-style: normal;
+  transition: color .5s;
+}
+#clip-this:hover{
+  clip-path: circle(100%);
+  background: rgba(255,255,255,0.8);
+}
+#clip-this:hover #i-icon{
+  color: rgba(255,255,255,0)
+}
+#btn1{
+  font-size: 2vw;
+  position:relative;
+  padding: 2px 15px;
+  margin-top: 10px;
+  float: left;
+  top:0;
+  left: 20%;
+}
+@media only screen and (max-width: 992px) {
+  #clip-this{
+    font-size: 3vw;
+    clip-path: circle(10px at 35px 45px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #clip-this{
+    font-size: 3vw;
+    clip-path: circle(12px at 35px 45px);
+  }
+  #btn1{
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #clip-this{
+    font-size: 4vw;
+    clip-path: circle(12px at 35px 42px);
+  }
+  #btn1{
+    font-size: 4vw;
+  }
+}
