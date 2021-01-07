@@ -1,0 +1,89 @@
+section img{
+  max-height: 90vh;
+  max-width: 80vw;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+  section img{
+    height:70vh;
+    width:auto;
+  }
+}
+.shaded{
+  float: left;
+}
+.btn{
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  float: right;
+}
+.btn:hover{
+  background-color: #000000;
+}
+#descrip-5{
+  position:relative;
+  color: #ffffff;
+  font-size: 30vw;
+  left:50px;
+  text-shadow: 30px 10px 40px rgba(0,0,0,0.15);
+}
+#title{
+  position: relative;
+  font-weight: bold;
+  font-size: 3vw;
+}
+#subtitle{
+  position: relative;
+  font-weight: bold;
+  font-size: 1.8vw;
+  padding-bottom: 2vw;
+}
+#summary{
+  font-size: 2.1vw;
+  font-weight:normal;
+  float: right;
+  width: 50vw;
+}
+#bullets{
+  position: relative;
+  font-weight: lighter;
+  font-size:1.8vw;
+  max-width: 50vw;
+}
+#bullets .regular{
+  font-weight: normal;
+}
+@media only screen and (max-width: 768px){
+  .btn{
+    font-size: 1.8vw;
+  }
+  #title{
+    font-size: 5vw;
+  }
+  #subtitle{
+    font-size: 2.5vw
+  }
+  #summary{
+    font-size: 2.7vw;
+    width: 50vw;
+  }
+  #bullets{
+    font-size:2vw;
+  }
+}
+@media only screen and (max-width: 600px){
+  .btn{
+    font-size: 2vw;
+  }
+  #summary{
+    font-size: 2.7vw;
+    width: 60vw;
+  }
+}

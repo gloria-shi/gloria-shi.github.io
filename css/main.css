@@ -119,6 +119,7 @@ footer{
 .footer-text{
   color: #000000;
   font-size: 1.2vw;
+  font-weight: normal;
 }
 .footer-text a{
   color: #000000;
@@ -198,7 +199,18 @@ footer{
 #descrip-4 a:hover{
   color:#000000;
 }
-
+#descrip-6 {
+  font-size: 10.5vw;
+  top:440px;
+  float:right;
+  right:0px;
+  position:absolute;
+  z-index:6;
+  text-shadow: 20px 10px 40px rgba(0,0,0,0.07);
+}
+#descrip-6 a:hover {
+  color:#000000;
+}
 @media only screen and (max-width: 992px) {
   #descrip-2 {
    top:140px;
@@ -208,6 +220,9 @@ footer{
   }
   #descrip-4 {
     top:270px;
+  }
+  #descrip-6{
+    top:330px;
   }
 }
  @media only screen and (max-width: 768px) {
@@ -219,6 +234,9 @@ footer{
   }
   #descrip-4 {
      top:195px;
+  }
+  #descrip-6{
+    top:250px;
   }
 }
  @media only screen and (max-width: 600px) {
@@ -244,6 +262,9 @@ footer{
   #descrip-4 {
     top:110px;
   }
+  #descrip-6{
+    top:160px;
+  }
 }
 /*introduction text*/
 #about .container-fluid{
@@ -263,7 +284,6 @@ footer{
 }
 #intro{
   font-size: 2.2vw;
-  font-weight: lighter;
 }
 @media only screen and (max-width: 768px){
   #greetings{
