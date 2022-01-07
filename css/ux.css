@@ -1,14 +1,15 @@
 section img{
-  max-height: 90vh;
-  max-width: 80vw;
+  max-height: 80vh;
+  max-width: 60vw;
   object-fit: contain;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4vh;
 }
 @media only screen and (max-width: 768px) {
   section img{
-    height:70vh;
+    height:60vh;
     width:auto;
   }
 }
@@ -37,16 +38,16 @@ section img{
 #title{
   position: relative;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 #subtitle{
   position: relative;
   font-weight: bold;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   padding-bottom: 2vw;
 }
 #summary{
-  font-size: 2.1vw;
+  font-size: 1.8vw;
   font-weight:normal;
   float: right;
   width: 50vw;
@@ -54,7 +55,7 @@ section img{
 #bullets{
   position: relative;
   font-weight: lighter;
-  font-size:1.8vw;
+  font-size:1.4vw;
   max-width: 50vw;
 }
 #bullets .regular{
@@ -72,7 +73,7 @@ section img{
   }
   #summary{
     font-size: 2.7vw;
-    width: 50vw;
+    width: 40vw;
   }
   #bullets{
     font-size:2vw;

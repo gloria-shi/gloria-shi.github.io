@@ -97,7 +97,7 @@ footer{
 .container-fluid{
   width: 100%;
   height: 100%;
-  padding: 15px;
+  padding: 20px;
   overflow:hidden;
 }
 .shaded {
@@ -270,8 +270,8 @@ footer{
 #about .container-fluid{
   width:100%;
   padding-top: 20px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 #greetings{
   position: relative;
